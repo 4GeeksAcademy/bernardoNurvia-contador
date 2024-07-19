@@ -8,11 +8,12 @@ const Clock = (props) => {
   let unidadDeMil = Math.floor(props.seconds / 1000) % 10;
   let decenaDeMil = Math.floor(props.seconds / 10000) % 10;
   let centenaDeMil = Math.floor(props.seconds / 100000) % 10;
+  let iconTime = <i class="bi bi-clock-history"></i>
   console.log(decenas);
   return (
     <div className="container">
       <div className="row ">
-        <Digito />
+        <Digito time={iconTime} />
         <Digito time={centenaDeMil}/>
         <Digito time={decenaDeMil} />
         <Digito time={unidadDeMil} />

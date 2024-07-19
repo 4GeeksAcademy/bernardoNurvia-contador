@@ -1,4 +1,9 @@
-
+h2{
+    color: rgb(247, 52, 166);
+    background-color: rgba(240, 248, 255, 0.815);
+    border: 5%;
+ 
+}
 /* 
 
     You can write your own styles here...

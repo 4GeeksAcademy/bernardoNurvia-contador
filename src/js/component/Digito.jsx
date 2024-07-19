@@ -11,7 +11,7 @@ const Digito = ({ time }) => {
           "url(https://www.hdwallpapers.in/thumbs/2020/plaid_orange_hd_abstract-t2.jpg)",
       }}
     >
-      <h1 className=" text-center fw-bold" style={{}}>
+      <h1 className=" text-center fw-bold">
         {time}
       </h1>
     </div>
